@@ -1,12 +1,5 @@
 <div>
   <h1>Upcoming angular Events</h1>
   <hr>
-  <div class="well hover thumnail"></div>
-  <h2>{{event.name}}</h2>
-  <div>Data: {{event.date}}</div>
-  <div>Time: {{event.time}}</div>
-  <div>Price: {{event.price}}</div>
-  <div>
-    <span>Location: {{event.location.address}}</span></div>
-    <span>{{event.location.city}}, {{event.location.country}}</span>
+  <app-event-thumbnail [event]="event"></app-event-thumbnail>
 </div>
