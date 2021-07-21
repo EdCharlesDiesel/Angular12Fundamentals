@@ -113,5 +113,10 @@
       }
     }
   },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
   "defaultProject": "Angular12Fundamentals"
 }
